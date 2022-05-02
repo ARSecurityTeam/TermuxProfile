@@ -25,11 +25,15 @@ sleep 0.5
 echo "$white  [=======   ] =>$green 80% downloaded"
 sleep 0.5
 echo "$white  [==========] =>$green 100% downloaded"
-pkg install wget -y
+pkg install git -y
 clear
-cd $home
+cd $HOME
 cd ..
 cd usr/etc
 rm bash.bashrc
-wget https://github.com/ARSecurityTeam/TermuxProfile/blob/main/bash.bashrc
+git clone https://github.com/ARSecurityTeam/TermuxProfile
+cd TermuxProfile
+mv bash.bashrc /data/data/com.termux/files/usr/etc
+cd $HOME
+rm -rf TermuxProfile
 exit
