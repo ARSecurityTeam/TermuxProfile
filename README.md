@@ -2,16 +2,26 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=arsecurityteam&label=Profile%20views&color=0e75b6&style=flat" alt="arsecurityteam" /> </p>
 
-<h2 align="left"> Installation... </h2>
+### Installation... 
 _______________________________
+
 $ pkg update
-$ pkg upgrade 
+
+$ pkg upgrade
+ 
 $ pkg install git -y
+
 $ git clone https://github.com/ARSecurityTeam/TermuxProfile
+
 $ cd TermuxProfile
+
 $ chmod +x install.sh
+
 $ sh install.sh 
+
 _______________________________
+
+###
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
