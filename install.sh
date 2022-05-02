@@ -31,9 +31,14 @@ cd $HOME
 cd ..
 cd usr/etc
 rm bash.bashrc
-git clone https://github.com/ARSecurityTeam/TermuxProfile
+cd $HOME
 cd TermuxProfile
 mv bash.bashrc /data/data/com.termux/files/usr/etc
 cd $HOME
 rm -rf TermuxProfile
-exit
+sleep 0.3
+clear
+echo ""
+echo ""
+echo "$green  [$red+$green]$blue Now restart your Termux app"
+echo ""
