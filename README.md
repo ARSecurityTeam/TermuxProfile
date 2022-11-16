@@ -17,7 +17,7 @@ $ cd TermuxProfile
 
 $ chmod +x install.sh
 
-$ sh install.sh 
+$ ./install.sh 
 
 _______________________________
 
